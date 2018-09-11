@@ -1,0 +1,36 @@
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+
+h2, p {
+	color: #5B5B5B;
+	text-align: center;
+	border: 5px solid #3B3B3B;
+	cursor: pointer;
+}
+
+p {
+	color: blue;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0,0,255, 0.3);
+}
+
+#div2 {
+	background: rgba(255,0,0, 0.3);
+}
