@@ -3,7 +3,7 @@ body {
 	background-size: cover;
 }
 
-h2, p {
+h2 + p {
 	color: #5B5B5B;
 	text-align: center;
 	border: 5px solid #3B3B3B;
@@ -11,7 +11,10 @@ h2, p {
 }
 
 p {
-	color: blue;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 100%;
 }
 
 li {
